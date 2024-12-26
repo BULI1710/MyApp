@@ -1,0 +1,374 @@
+.app-container {
+  background: #000000;
+  background-color: #000000; /* Light gray background */
+  min-height: 100vh; /* Full viewport height */
+  
+}
+/*home*/
+
+/* Hero Section */
+.hero {
+  background: #000000;
+  padding: 5rem 0;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  background: #e48212;
+}
+
+/* Programs Section */
+.programs {
+  background: linear-gradient(135deg, #000000, #d6a947);
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.program-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+}
+
+.program-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.program-title {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.program-text {
+  color: #e48212;
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 0;
+  background: #000000;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #e48212;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-text {
+  color: #e48212;
+}
+
+/* Footer */
+.footer {
+  background: #343a40;
+  color: #e48212;
+  padding: 2rem 0;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-link {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.social-link:hover {
+  color: #e48212;
+}
+
+footer {
+  background-color: #343a40; /* Dark gray background */
+  color: #e48212; /* White text */
+  text-align: center; /* Center align content */
+  padding: 1rem 0; /* Top and bottom padding */
+}
+
+footer a {
+  color: white; /* Light text for links */
+  text-decoration: none;
+  margin: 0 10px; /* Spacing between links */
+}
+
+footer a:hover {
+  color: #ffc107; /* Yellow hover effect */
+}
+.custom-brand {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: Makes text uppercase */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow */
+}
+/*internship page*/
+
+.internship-title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e48212;
+}
+/*about page*/
+/* General Styling */
+.about-page {
+  background: #000000;
+  color: #e48212;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title Styling */
+.about-title {
+  font-size: 3rem;
+  color: #e48212;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  color: #e0591a;
+  margin-bottom: 50px;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Image Styling */
+.about-image .animated-image {
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image .animated-image:hover {
+  transform: scale(1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styling */
+.section-title {
+  font-size: 2.2rem;
+  color: #004085;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+/* Team Cards */
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.team-card {
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.team-img {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contact Page Styles */
+.contact-page {
+  background: #000000;
+  min-height: 100vh;
+  padding: 50px 0;
+  color: #e48212;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title Styling */
+.contact-title {
+  font-size: 3rem;
+  color: #e48212;
+  font-weight: bold;
+  text-align: center;
+  animation: fadeInDown 1s ease;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: #e0591a;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease;
+}
+
+/* Section Styling */
+.section-title {
+  font-size: 1.8rem;
+  color: #e48212;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #e0591a;
+  display: inline-block;
+}
+.section-text{
+  font-size: 1.2rem;
+  color: #e0591a;
+}
+/*value card*/
+
+
+/* Contact Info Styling */
+.contact-info {
+  color: #e0591a;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #e48212;
+  margin-right: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #e48212;
+}
+
+/* Form Styling */
+.contact-form {
+  background: linear-gradient(#000000,#e48212);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .form-label {
+  font-size: 1rem;
+  color: #e0591a;
+}
+
+.contact-form .form-control {
+  border: 1px solid #e48212;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact-form .submit-btn {
+  background: #e48212;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+  background: #e48212;
+  transform: translateY(-2px);
+}
+.auth-page {
+  background: #000000;
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background-color: linear-gradient(135deg, #000000, #d6a947);
+  border: 1px solid #e48212;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h3 {
+  font-size: 1.8rem;
+  color: #e48212;
+}
+
+.auth-card form {
+  max-width: 400px;
+  margin: auto;
+  color: #e0591a;
+}
+
+.auth-card button {
+  background-color: #e48212;
+  border: none;
+}
+
+.auth-card button:hover {
+  background-color: #e48212;
+}
+
+.auth-card p {
+  font-size: 0.9rem;
+  color: #e0591a;
+}
+
+.auth-card a {
+  color: #e7e1de;
+  text-decoration: none;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}
+button.w-100 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #e48212;
+  border: none;
+}
+
+button.w-100:hover {
+  background-color: #e48212;
+}
+
