@@ -3,12 +3,12 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import fullStack from "./MyAppImages/fullStack.png";
 import mernStack from "./MyAppImages/mernStack.jpeg";
 import webDevelopment from "./MyAppImages/webDevelopment.jpg";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
-  const [move, setMove] = useState(false);
+  const navigate = useNavigate();
   const handleGetStarted = () => {
-    setMove(true);
+    navigate('/login');
   };
 
   return (
@@ -21,7 +21,7 @@ function Home() {
             Empowering the next generation of tech innovators through hands-on
             mentorship and real-world challenges.
           </p>
-          <Button variant="primary" className="cta-button" onClick={()=>handleGetStarted('/Login')}>
+          <Button variant="primary" className="cta-button" onClick={handleGetStarted}>
             Get Started
           </Button>
         </Container>
@@ -115,12 +115,6 @@ function Home() {
           </Row>
         </Container>
       </section>
-
-      {move && (
-        <div>
-          <h2>Redirecting to Login Page...</h2>
-        </div>
-      )}
     </div>
   );
 }
